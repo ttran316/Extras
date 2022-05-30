@@ -15,7 +15,6 @@ while True:
 
     cpu_input = random.randint(0,2)
     # 0 = Rock, 1 = Paper, 2 = Scissors
-    print("test")
     if cpu_input == 0:
         if user_input == "rock":
             print("Tie, try again!")
